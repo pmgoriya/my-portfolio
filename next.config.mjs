@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // 💥 Required for static S3 hosting
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    unoptimized: false,
+    unoptimized: true, //true mandatory for s3 otherwise false
     formats: ['image/webp'],
     remotePatterns: [
       {

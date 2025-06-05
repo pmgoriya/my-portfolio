@@ -147,13 +147,13 @@ export default function Page() {
   const handleContact = (platform: string) => {
     switch(platform) {
       case 'gmail':
-        window.location.href = 'mailto:fernand3zdev@gmail.com';
+        window.location.href = 'mailto:pmgoriya@gmail.com';
         break;
       case 'whatsapp':
         window.location.href = 'https://wa.me/447479460160';
         break;
       case 'linkedin':
-        window.location.href = 'https://www.linkedin.com/in/amoda-fernando';
+        window.location.href = 'https://www.linkedin.com/in/pmgoriya';
         break;
     }
   }
@@ -167,7 +167,7 @@ export default function Page() {
           {/* Hero Section */}
           <section id="about" className="mb-24 text-center">
             <h1 className="text-[42px] font-bold mb-4 gradient-text animate-fade-in">
-              Amoda Fernando
+              Pankaj Goriya
             </h1>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in delay-200">
               Passionate developer with a knack for solving complex problems through code. Mostly self-taught and driven by an unyielding curiosity to explore and master new technologies.

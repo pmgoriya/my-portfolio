@@ -95,7 +95,7 @@ export function Sidebar({ sections, activeSection, onSectionClick }: SidebarProp
               asChild
             >
               <a
-                href="https://x.com/Fernand3zdev"
+                href="https://x.com/pmgoriya"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="X (Twitter)"
@@ -110,7 +110,7 @@ export function Sidebar({ sections, activeSection, onSectionClick }: SidebarProp
               asChild
             >
               <a
-                href="mailto:fernand3zdev@gmail.com"
+                href="mailto:pmgoriya@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Email"
@@ -122,7 +122,7 @@ export function Sidebar({ sections, activeSection, onSectionClick }: SidebarProp
 
           {/* Copyright */}
           <div className="text-center text-sm text-muted-foreground mt-4 px-4">
-            <p>© {new Date().getFullYear()} Amoda Fernando</p>
+            <p>© {new Date().getFullYear()} Pankaj Goriya</p>
           </div>
         </div>
       </SheetContent>
