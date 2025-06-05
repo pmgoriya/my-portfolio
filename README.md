@@ -95,6 +95,7 @@ frontend:
 - [Tailwind CSS](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Lucide Icons](https://lucide.dev/)
+- [Og link] (https://github.com/fernand3z/my-portfolio)
 
 ## Scripts
 
